@@ -13,6 +13,7 @@
     <bytecodeTargetLevel>
       <module name="core" target="11" />
       <module name="finex-public-386" target="11" />
+      <module name="utils" target="11" />
     </bytecodeTargetLevel>
   </component>
 </project>

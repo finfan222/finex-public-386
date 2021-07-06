@@ -11,6 +11,7 @@
 
     <modules>
         <module>core</module>
+        <module>utils</module>
     </modules>
 
     <properties>
@@ -20,6 +21,16 @@
     </properties>
 
     <dependencies>
+        <dependency>
+            <groupId>com.cronutils</groupId>
+            <artifactId>cron-utils</artifactId>
+            <version>9.1.5</version>
+        </dependency>
+        <dependency>
+            <groupId>org.reflections</groupId>
+            <artifactId>reflections</artifactId>
+            <version>0.9.10</version>
+        </dependency>
         <dependency>
             <groupId>com.mchange</groupId>
             <artifactId>c3p0</artifactId>

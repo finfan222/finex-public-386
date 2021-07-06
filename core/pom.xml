@@ -11,5 +11,11 @@
 
     <artifactId>core</artifactId>
 
-
+    <dependencies>
+        <dependency>
+            <groupId>net.sf.l2j</groupId>
+            <artifactId>utils</artifactId>
+            <version>1.0</version>
+        </dependency>
+    </dependencies>
 </project>
